@@ -9,6 +9,11 @@ body
 	margin: 0px;
 }
 
+header
+{
+	height: 200px;
+}
+
 #wrapper
 {
 	width: 940px;
@@ -34,11 +39,13 @@ nav ul
 {
 	margin: 0px;
 	padding: 5px 0px 5px 30px;
+	
 }
 
 nav li
 {
 	margin-right: 40px;
+	display: inline;
 }
 
 nav li a
@@ -98,6 +105,10 @@ aside section a:hover
 	color: #985d6a;
 	background-color: #efefef;
 }
+h1, h2, h3
+{
+	font-weight: normal;
+}
 
 h2
 {
@@ -113,6 +124,17 @@ h3
 	font-style: italic;
 }
 
+aside
+{
+	width: 230px;
+	padding-left: 20px;
+	float: right;
+}
+aside a
+{
+	text-decoration: none;
+	color: #de6581;
+}
 aside h2
 {
 	padding: 30px 0px 10px 0px;
@@ -134,4 +156,9 @@ section.contpage
 {
 	text-align: center;
 	font-size: 20px;
+}
+
+article
+{
+	text-align: justify;
 }
